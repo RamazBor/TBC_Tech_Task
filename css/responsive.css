@@ -1,0 +1,227 @@
+@media screen and (max-width: 1250px) {
+  .project_partners .slider .prev {
+    left: 3%;
+  }
+
+  .project_partners .slider .next {
+    right: 3%;
+  }
+
+  .project_partners .slider .slide img[alt="Spectre"] {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 1098px) {
+  .header header .logo {
+    margin-left: 20px;
+  }
+  .header header .navbar {
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .project_partners .slider .slide img {
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .header header .navbar nav ul {
+    gap: 35px;
+  }
+  .header header .logo {
+    margin-left: -70px;
+  }
+  .header header .navbar {
+    margin-right: 30px;
+  }
+  .background_image .container .TBC-USAID {
+    left: 85px;
+  }
+  .background_image .container .TBC-USAID span:first-child {
+    font-size: 30px;
+  }
+  .background_image .container .techEducation {
+    left: 85px;
+    font-size: 25px;
+  }
+  .description div {
+    line-height: 35px;
+  }
+  .description div p:nth-child(1) {
+    font-size: 22px;
+  }
+
+  .description div p:nth-child(2) a {
+    font-size: 16px;
+  }
+
+  .questions .container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .header header .navbar {
+    display: none;
+    width: 250px;
+    height: 100vh;
+    text-align: right;
+    position: absolute;
+    top: 0;
+    right: -30px;
+    background-color: #161616;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+
+  .header header .navbar nav {
+    margin: 70px 15px 0 0;
+  }
+
+  .header header .navbar nav ul {
+    flex-direction: column;
+  }
+  .header header .bars-staggered {
+    display: block;
+  }
+  .project_partners .slider .slide {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px 0;
+    width: 80%;
+  }
+  .project_partners .slider .slide img {
+    width: 170px;
+  }
+  .project_partners .slider .slide img[alt="Spectre"] {
+    margin: 10px 0 0 10px;
+  }
+  .project_partners .slider .bullets {
+    bottom: 20px;
+    left: 55%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .background_image .container {
+    min-height: 336px;
+    background-size: cover;
+    background-position: -300px 70px;
+  }
+  .background_image .container .TBC-USAID {
+    left: 15px;
+    top: 150px;
+  }
+  .background_image .container .techEducation {
+    left: 15px;
+    top: 220px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .questions {
+    position: relative;
+  }
+  .questions .container .title p a {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .background_image .container .TBC-USAID span:first-child {
+    font-size: 22px;
+  }
+  .background_image .container .techEducation {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .description div {
+    line-height: 25px;
+  }
+  .description div p:nth-child(1) {
+    font-size: 15px;
+  }
+
+  .description div p:nth-child(2) a {
+    font-size: 13px;
+  }
+  .project_partners h3 {
+    margin-left: 50px;
+    font-size: 20px;
+  }
+
+  .questions .container .title h3 {
+    font-size: 20px;
+  }
+  .questions .container .title p a {
+    font-size: 15px;
+  }
+  .questions .container .select-menu .select-btn .sBtn-text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 556px) {
+  .footer {
+    align-items: center;
+  }
+  .footer footer {
+    position: relative;
+  }
+  .footer footer .text .logo {
+    position: absolute;
+    top: -130px;
+    left: 0;
+  }
+  .allRightsReserved,
+  .rules {
+    position: absolute;
+  }
+  .allRightsReserved {
+    bottom: -90px;
+    left: 0;
+  }
+  .rules {
+    bottom: -30px;
+    left: 0;
+  }
+
+  .footer footer .social-networks {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    display: flex;
+  }
+
+  .footer footer .social-networks .writeToUs {
+    margin-top: 5px;
+  }
+
+  .footer footer .social-networks .writeToUs button {
+    padding: 8px 25px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .learning_courses .container .box {
+    width: 98%;
+  }
+  .learning_courses .container .box img {
+    width: 100%;
+  }
+  .learning_courses .container .box .details a {
+    font-size: 14px;
+  }
+  .project_partners .slider .slide {
+    width: 60%;
+  }
+}
