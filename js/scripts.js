@@ -71,7 +71,6 @@ dropdowns.forEach((dropdown) => {
   let button = dropdown.querySelector(".select-btn");
   let answer = dropdown.querySelector(".answer");
   let arrowDown = dropdown.querySelector(".arrow-down");
-  let arrowsDown = dropdown.querySelectorAll(".arrow-down");
 
   button.addEventListener("click", () => {
     // Hide all other dropdowns and remove active class from all other arrow
